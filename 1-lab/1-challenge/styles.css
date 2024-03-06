@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(180, 170, 150);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr 6fr 3fr 5fr 1fr 1fr 1fr;
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+  width: 90vw;
+  margin: 20px auto;
+}
+.container__box {
+  margin: 8px;
+}
+.container__box.one {
+  grid-row: 1/3;
+  grid-column: 1;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.two {
+  grid-row: 3/5;
+  grid-column: 1;
+  background-color: rgb(0, 0, 0);
+}
+.container__box.three {
+  grid-row: 5/7;
+  grid-column: 1;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.four {
+  grid-row: 7/9;
+  grid-column: 1/4;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.five {
+  grid-row: 1;
+  grid-column: 2/7;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.six {
+  grid-row: 2;
+  grid-column: 2/7;
+  background-color: rgb(20, 50, 120);
+}
+.container__box.seven {
+  grid-row: 3/5;
+  grid-column: 2/3;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.eight {
+  grid-row: 5/7;
+  grid-column: 2;
+  background-color: rgb(155, 0, 30);
+}
+.container__box.nine {
+  grid-row: 3/6;
+  grid-column: 3;
+  background-color: rgb(0, 0, 0);
+}
+.container__box.ten {
+  grid-row: 3;
+  grid-column: 4/6;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.eleven {
+  grid-row: 4;
+  grid-column: 4;
+  background-color: rgb(220, 200, 20);
+}
+.container__box.twelve {
+  grid-row: 5/9;
+  grid-column: 4;
+  background-color: rgb(220, 200, 20);
+}
+.container__box.thirteen {
+  grid-row: 3;
+  grid-column: 6;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.fourteen {
+  grid-row: 4;
+  grid-column: 5/7;
+  background-color: rgb(155, 0, 30);
+}
+.container__box.fifteen {
+  grid-row: 5;
+  grid-column: 5/8;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.sixteen {
+  grid-row: 6/9;
+  grid-column: 5/7;
+  background-color: rgb(155, 0, 30);
+}
+.container__box.seventeen {
+  grid-row: 1;
+  grid-column: 7/12;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.eightteen {
+  grid-row: 2;
+  grid-column: 7/9;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.nineteen {
+  grid-row: 3;
+  grid-column: 7/9;
+  background-color: rgb(220, 200, 20);
+}
+.container__box.twenty {
+  grid-row: 4;
+  grid-column: 7/9;
+  background-color: rgb(20, 50, 120);
+}
+.container__box.twenty-one {
+  grid-row: 6/9;
+  grid-column: 7/9;
+  background-color: rgb(0, 0, 0);
+}
+.container__box.twenty-two {
+  grid-row: 2;
+  grid-column: 9/12;
+  background-color: rgb(20, 50, 120);
+}
+.container__box.twenty-three {
+  grid-row: 3;
+  grid-column: 9/11;
+  background-color: rgb(155, 0, 30);
+}
+.container__box.twenty-four {
+  grid-row: 4;
+  grid-column: 9/11;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.twenty-five {
+  grid-row: 5;
+  grid-column: 8/10;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.twenty-six {
+  grid-row: 5;
+  grid-column: 10/11;
+  background-color: rgb(20, 50, 120);
+}
+.container__box.twenty-seven {
+  grid-row: 3;
+  grid-column: 11;
+  background-color: rgb(155, 0, 30);
+}
+.container__box.twenty-eight {
+  grid-row: 4;
+  grid-column: 11;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.twenty-nine {
+  grid-row: 5;
+  grid-column: 11;
+  background-color: rgb(220, 200, 20);
+}
+.container__box.thirty {
+  grid-row: 6/9;
+  grid-column: 10/14;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.thirty-one {
+  grid-row: 1/4;
+  grid-column: 12;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.thirty-two {
+  grid-row: 4;
+  grid-column: 12/14;
+  background-color: rgb(0, 0, 0);
+}
+.container__box.thirty-three {
+  grid-row: 5;
+  grid-column: 12/14;
+  background-color: rgb(250, 250, 250);
+}
+.container__box.thirty-four {
+  grid-row: 1/4;
+  grid-column: 13;
+  background-color: rgb(220, 200, 20);
+}
+
+/*# sourceMappingURL=styles.css.map */
