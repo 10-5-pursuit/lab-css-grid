@@ -1,0 +1,111 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.parent{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 75%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 12.5% 25% 12.5% 50%;
+    grid-template-rows: 25% 12.5% 42.5% 20%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.grid-item{
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+}
+.grid-item.one_white{
+    background-color: white;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    border-right: 5px black solid;
+}
+.grid-item.two_red{
+    background-color: red;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.grid-item.three_white{
+    background-color: white;
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+    border-left: 5px black solid;
+}
+.grid-item.four_white{
+    background-color: white;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    border-right: 5px black solid;
+}
+.grid-item.five_white{
+    background-color: white;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.grid-item.six_white{
+    background-color: white;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.grid-item.seven_red{
+    background-color: red;
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+    border-left: 5px black solid;
+}
+.grid-item.eight_blue{
+    background-color: blue;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    border-right: 5px black solid;
+}
+.grid-item.nine_white{
+    background-color: white;
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.grid-item.ten_yellow{
+    background-color: yellow;
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.grid-item.eleven_white{
+    background-color: white;
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 1;
+    border-left: 5px black solid;
+}
+.grid-item.twelve_white{
+    background-color: white;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    border-right: 5px black solid;
+}
+.grid-item.thirteen_white{
+    background-color: white;
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 1;
+    border-left: 5px black solid;
+    border-right: 5px black solid;
+}
+.grid-item.fourteen_blue{
+    background-color: blue;
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    border-left: 5px black solid;
+}
