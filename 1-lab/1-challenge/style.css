@@ -1,0 +1,168 @@
+body{
+    padding-top: 20px;
+}
+.container{
+    display: grid;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 755px;
+    height: 575px;
+    grid-template-rows: repeat(23, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    padding: 0;
+}
+.box{
+    border: 5px solid black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.one{
+    grid-row: span 4;
+    grid-column: ;
+}
+.two{
+    grid-row: ;
+    grid-column: span 7;
+}
+.three{
+    grid-row: ;
+    grid-column: span 8;
+}
+.four{
+    grid-row: span 11;
+    grid-column: ;
+}
+.five{
+    grid-row: span 11;
+    grid-column: ;
+}
+.six{
+    grid-row: span 3;
+    grid-column: span 7;
+}
+.seven{
+    grid-row: span 3;
+    grid-column: span 3;
+}
+.eight{
+    grid-row: span 3;
+    grid-column: span 5;
+}
+.nine{
+    grid-row: span 10;
+    grid-column: ;
+}
+.ten{
+    grid-row: span 10;
+    grid-column: span 2;
+}
+.eleven{
+    grid-row: span 17;
+    grid-column: ;
+}
+.twelve{
+    grid-row: span 7;
+    grid-column: span 3;
+}
+.thirteen{
+    grid-row: span 7;
+    grid-column: ;
+}
+.fourteen{
+    grid-row: span 7;
+    grid-column: span 3;
+}
+.fifteen{
+    grid-row: span 7;
+    grid-column: span 4;
+}
+.sixteen{
+    grid-row: span 7;
+    grid-column: ;
+}
+.seventeen{
+    grid-row: span 3;
+    grid-column: ;
+}
+.eighteen{
+    grid-row: span 3;
+    grid-column: span 3;
+}
+.nineteen{
+    grid-row: span 3;
+    grid-column: span 3;
+}
+.twenty{
+    grid-row: span 3;
+    grid-column: span 4;
+}
+.twentyone{
+    grid-row: span 3;
+    grid-column: ;
+}
+.twentytwo{
+    grid-row: span 3;
+    grid-column: span 2;
+}
+.twentythree{
+    grid-row: span 7;
+    grid-column: ;
+}
+.twentyfour{
+    grid-row: span 7;
+    grid-column: span 2;
+}
+.twentyfive{
+    grid-row: span 9;
+    grid-column: span ;
+}
+.twentysix{
+    grid-row: span 5;
+    grid-column: span 5;
+}
+.twentyseven{
+    grid-row: span 5;
+    grid-column: span 3;
+}
+.twentyeight{
+    grid-row: span 5;
+    grid-column: span 2;
+}
+.twentynine{
+    grid-row: span 5;
+    grid-column: span ;
+}
+.thirty{
+    grid-row: span 5;
+    grid-column: span 2;
+}
+.thirtyone{
+    grid-row: span 4;
+    grid-column: span 3;
+}
+.thirtytwo{
+    grid-row: span 4;
+    grid-column: span 5;
+}
+.thirtythree{
+    grid-row: span 4;
+    grid-column: span 5;
+}
+.thirtyfour{
+    grid-row: span 2;
+    grid-column: span 4;
+}
+.six, .eight, .nineteen, .twentyeight{
+    background-color: rgb(22, 0, 94);
+}
+.five, .fourteen, .seventeen, .twentyfive, .twentynine{
+    background-color: rgb(234, 195, 0);;
+}
+.fifteen, .sixteen, .eighteen, .twentyfour, .thirtyone{
+    background-color: rgb(189, 0, 0);
+}
+.nine, .eleven, .twentytwo, .thirtytwo{
+    background-color: black;
+}
