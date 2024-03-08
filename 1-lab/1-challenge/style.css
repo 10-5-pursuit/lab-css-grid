@@ -1,0 +1,209 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.main {
+  box-sizing: border-box;
+  position: absolute;
+  border: 5px solid black;
+  width: 85%;
+  height: 65%;
+  display: grid;
+  top: 10%;
+  left: 10%;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  gap: 6px;
+  background: black;
+}
+.main__red {
+  background: #C52227;
+}
+.main__yellow {
+  background: #F0C513;
+}
+.main__blue {
+  background: #272363;
+  color: white;
+}
+.main__black {
+  background: black;
+  color: white;
+}
+.main__white {
+  background: #fff;
+}
+
+.nineteen {
+  grid-column: 1/5;
+  grid-row: 14/15;
+}
+
+.twenty {
+  grid-column: 1/2;
+  grid-row: 10/14;
+}
+
+.twenty-one {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.twenty-two {
+  grid-column: 2/9;
+  grid-row: 1/2;
+}
+
+.twenty-three {
+  grid-column: 9/17;
+  grid-row: 1/2;
+}
+
+.fifteen {
+  grid-column: 1/2;
+  grid-row: 4/10;
+}
+
+.eleven {
+  grid-column: 2/9;
+  grid-row: 2/4;
+}
+
+.twenty-four {
+  grid-column: 9/12;
+  grid-row: 2/4;
+}
+
+.twelve {
+  grid-column: 12/17;
+  grid-row: 2/4;
+}
+
+.twenty-five {
+  grid-column: 2/4;
+  grid-row: 4/10;
+}
+
+.one {
+  grid-column: 2/4;
+  grid-row: 10/14;
+}
+
+.sixteen {
+  grid-column: 4/5;
+  grid-row: 4/14;
+}
+
+.twenty-six {
+  grid-column: 17/18;
+  grid-row: 1/8;
+}
+
+.six {
+  grid-column: 18/19;
+  grid-row: 1/8;
+}
+
+.twenty-seven {
+  grid-column: 5/8;
+  grid-row: 4/8;
+}
+
+.twenty-eight {
+  grid-column: 8/9;
+  grid-row: 4/8;
+}
+
+.seven {
+  grid-column: 5/6;
+  grid-row: 8/10;
+}
+
+.two {
+  grid-column: 6/9;
+  grid-row: 8/10;
+}
+
+.eight {
+  grid-column: 5/6;
+  grid-row: 10/15;
+}
+
+.twenty-nine {
+  grid-column: 6/11;
+  grid-row: 10/13;
+}
+
+.three {
+  grid-column: 6/9;
+  grid-row: 13/15;
+}
+
+.seventeen {
+  grid-column: 9/14;
+  grid-row: 13/15;
+}
+
+.thirty {
+  grid-column: 14/19;
+  grid-row: 13/15;
+}
+
+.thirty-one {
+  grid-column: 17/19;
+  grid-row: 10/13;
+}
+
+.eightteen {
+  grid-column: 17/19;
+  grid-row: 8/10;
+}
+
+.thirty-two {
+  grid-column: 11/14;
+  grid-row: 10/13;
+}
+
+.thirteen {
+  grid-column: 14/16;
+  grid-row: 10/13;
+}
+
+.nine {
+  grid-column: 16/17;
+  grid-row: 10/13;
+}
+
+.thirty-three {
+  grid-column: 16/17;
+  grid-row: 8/10;
+}
+
+.thirty-four {
+  grid-column: 12/16;
+  grid-row: 8/10;
+}
+
+.fourteen {
+  grid-column: 9/12;
+  grid-row: 8/10;
+}
+
+.ten {
+  grid-column: 9/12;
+  grid-row: 4/8;
+}
+
+.four {
+  grid-column: 12/16;
+  grid-row: 4/8;
+}
+
+.five {
+  grid-column: 16/17;
+  grid-row: 4/8;
+}
+
+/*# sourceMappingURL=style.css.map */
