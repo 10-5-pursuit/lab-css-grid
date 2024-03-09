@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: black;
+}
+
+.picasso-container {
+  position: absolute;
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20px 40px 20px 90px;
+  grid-template-rows: 50px 30px 100px 40px;
+}
+.picasso-container__whitetop-left {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.picasso-container__topred {
+  background-color: red;
+  border: 2px solid black;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.picasso-container__topwhite {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.picasso-container__miniwhite-left {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.picasso-container__whitebetween-mini {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.picasso-container__miniwhite-right {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.picasso-container__slim-red {
+  background-color: red;
+  border: 2px solid black;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.picasso-container__blue-slim {
+  background-color: blue;
+  border: 2px solid black;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.picasso-container__white-next-slimblue {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.picasso-container__yellow {
+  background-color: yellow;
+  border: 2px solid black;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.picasso-container__white-above-bottomblue {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.picasso-container__whitebottom-left {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.picasso-container__whitebottom-mid {
+  background-color: white;
+  border: 2px solid black;
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+.picasso-container__bluebottom-right {
+  background-color: blue;
+  border: 2px solid black;
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+/*# sourceMappingURL=style2.css.map */
