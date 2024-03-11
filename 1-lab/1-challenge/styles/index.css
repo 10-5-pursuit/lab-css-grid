@@ -1,0 +1,142 @@
+body {
+  height: 10vh;
+  width: 10vw;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: black;
+}
+
+.container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  background-color: black;
+  color: white;
+  grid: repeat(14, 1fr)/repeat(18, 1fr);
+  gap: 10px;
+  box-sizing: border-box;
+}
+.container__white {
+  background-color: white;
+}
+.container__red {
+  background-color: red;
+}
+.container__black {
+  background-color: black;
+}
+.container__white {
+  background-color: white;
+  color: black;
+}
+.container__yellow {
+  background-color: yellow;
+  color: black;
+}
+.container__blue {
+  background-color: blue;
+}
+.container .one {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.container .twenty-one {
+  grid-column: 1/2;
+  grid-row: 4/10;
+}
+.container .two {
+  grid-column: 1/2;
+  grid-row: 10/14;
+}
+.container .three {
+  grid-column: 1/5;
+  grid-row: 14/15;
+}
+.container .four {
+  grid-column: 2/8;
+  grid-row: 1/2;
+}
+.container .eighteen {
+  grid-column: 2/8;
+  grid-row: 2/4;
+}
+.container .five {
+  grid-column: 2/4;
+  grid-row: 4/10;
+}
+.container .twenty-five {
+  grid-column: 2/4;
+  grid-row: 10/14;
+}
+.container .twenty-two {
+  grid-column: 4/5;
+  grid-row: 4/13;
+}
+.container .six {
+  grid-column: 5/7;
+  grid-row: 4/9;
+}
+.container .thirty {
+  grid-column: 5/6;
+  grid-row: 9/10;
+}
+.container .thirty-one {
+  grid-column: 5/6;
+  grid-row: 10/15;
+}
+.container .seven {
+  grid-column: 7/8;
+  grid-row: 4/9;
+}
+.container .twenty-six {
+  grid-column: 6/8;
+  grid-row: 9/10;
+}
+.container .eight {
+  grid-column: 6/9;
+  grid-row: 10/14;
+}
+.container .twenty-seven {
+  grid-column: 6/8;
+  grid-row: 14/15;
+}
+.container .nine {
+  grid-column: 8/17;
+  grid-row: 1/2;
+}
+.container .twelve {
+  grid-column: 8/10;
+  grid-row: 2/4;
+}
+.container .thirty-two {
+  grid-column: 8/10;
+  grid-row: 4/9;
+}
+.container .seventeen {
+  grid-column: 8/10;
+  grid-row: 9/10;
+}
+.container .nineteen {
+  grid-column: 10/17;
+  grid-row: 2/4;
+}
+.container .twenty-eight {
+  grid-column: 10/16;
+  grid-row: 4/9;
+}
+.container .ten {
+  grid-column: 10/16;
+  grid-row: 9/10;
+}
+.container .eleven {
+  grid-column: 9/11;
+  grid-row: 10/14;
+}
+.container .twenty {
+  grid-column: 11/14;
+  grid-row: 10/14;
+}/*# sourceMappingURL=index.css.map */

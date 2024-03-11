@@ -1,0 +1,92 @@
+body {
+  height: 100vh;
+  width: 100vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  height: 75%;
+  width: 50%;
+  display: grid;
+  grid: repeat(12, 1fr)/repeat(8, 1fr);
+  top: 10%;
+  left: 10%;
+  border: 15px solid black;
+  margin: 20px;
+  gap: 16px;
+  box-sizing: border-box;
+  background-color: black;
+  border-left: 0;
+  border-right: 0;
+}
+.container__white {
+  background-color: white;
+}
+.container__red {
+  background-color: red;
+}
+.container__blue {
+  background-color: blue;
+}
+.container__yellow {
+  background-color: #fadc1b;
+}
+.container .one {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.container .ten {
+  grid-column: 2/5;
+  grid-row: 1/4;
+}
+.container .two {
+  grid-column: 5/9;
+  grid-row: 1/4;
+}
+.container .three {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+.container .eleven {
+  grid-column: 5/9;
+  grid-row: 4/5;
+}
+.container .four {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.container .five {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+.container .twelve {
+  grid-column: 1/2;
+  grid-row: 5/11;
+}
+.container .six {
+  grid-column: 1/2;
+  grid-row: 11/13;
+}
+.container .seven {
+  grid-column: 2/4;
+  grid-row: 5/11;
+}
+.container .fourteen {
+  grid-column: 4/5;
+  grid-row: 5/11;
+}
+.container .eight {
+  grid-column: 2/5;
+  grid-row: 11/13;
+}
+.container .nine {
+  grid-column: 5/9;
+  grid-row: 5/11;
+}
+.container .thirteen {
+  grid-column: 5/9;
+  grid-row: 11/13;
+}/*# sourceMappingURL=index.css.map */
