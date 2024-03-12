@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+  
+html,
+body {
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+}
+
+.container{
+
+    display: grid;
+    // width: 600px;
+    // height: 800px;
+    // width: 100%;
+    // height: 100%;
+    
+    // grid-template-columns: repeat(auto-fill, 1%);
+    // grid-template-rows: repeat(auto-fill, 1%);
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    gap: 10px;
+    // background-color: black;
+}
+
+.box{
+    border: 1px solid orange;
+    &__white{
+        // background-color: white;
+        background-color: wheat;
+    }
+
+    &__red{
+        background-color: red;
+    }
+
+    &__blue{
+        background-color: blue;
+    }
+
+    &__yellow{
+        background-color: yellow;
+    }
+
+    &__black{
+        background-color: black;
+        color: white;
+    }
+}
+
+.zero{
+    grid-column: 1;
+    grid-row: 1/4;
+}
+
+.one{
+    grid-column: 2/10;
+    grid-row: 1;
+}
+
+.two{
+    grid-column: 10/17;
+    grid-row: 1;
+}
+
+.three{
+grid-column: 17;
+// grid-row:1/6
+}
+
+.four{
+    grid-column: 10/13;
+    grid-row:2/4;
+}
+
+.five{
+    grid-column: 2/4;
+    grid-row: 4/10;
+}
+
+// .six{
+
+// }
+
+// .seven{
+
+// }
+
+// .eight{
+
+// }
+
+// .nine{
+
+// }
+
+// .ten{
+
+// }
+
+// .eleven{
+
+// }
+
+// .twelve{
+
+// }
+
+// .thirteen{
+
+// }
+
+.fourteen{
+    grid-column: 1;
+    grid-row: 10/15;
+}
+
+.fifteen{
+    grid-column: 1/5;
+    grid-row:15;
+}
+
+.sixteen{
+    grid-column: 2/4;
+    grid-row: 10/15;
+}
+
+// .seventeen{
+
+// }
+
+// .eightteen{
+
+// }
+
+// .nineteen{
+
+// }
+
+// .twenty{
+
+// }
+
+.twenty-one{
+    grid-column: 5;
+    grid-row: 10/16;
+}
+
+// .twenty-two{
+
+// }
+
+// .twenty-three{
+
+// }
+
+// .twenty-four{
+
+// }
+
+// .twenty-five{
+
+// }
+
+.twenty-six{
+    grid-column: 2/10;
+    grid-row: 2/4;
+}
+
+.twenty-seven{
+    grid-column: 13/17;
+    grid-row:2/4;
+}
+
+// .twenty-eight{
+
+// }
+
+// .twenty-nine{
+
+// }
+
+.thirty{
+    grid-column: 1;
+    grid-row: 4/10;
+}
+
+.thirty-one{
+    grid-column: 4;
+    grid-row: 4/15;
+}
+
+// .thirty-two{
+
+// }
+
+// .thirty-three{
+
+// }
