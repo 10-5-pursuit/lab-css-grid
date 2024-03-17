@@ -1,0 +1,207 @@
+
+body {
+    padding: 20px 5px;
+    margin: 5px;
+    /* border: 2px solid black; */
+    height: 400px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.boxes {
+    display: grid;
+    grid-template-rows: 250px 150px;
+    /* border: 1px solid black; */
+
+}
+
+.top-box {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /* border: 1px solid black; */
+
+}
+
+.top-left {
+    display: grid;
+    grid-template-rows: 35% 65%;
+    /* border: 1px solid black; */
+
+}
+
+.top-top {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    /* border: 1px solid black; */
+
+}
+
+.top-top-one {
+    /* border-bottom: none; */
+    border-right: 4px solid black;
+}
+
+.top-top-two {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    /* border: 1px solid black; */
+}
+
+/* .top-top-three {
+
+} */
+.top-top-four {
+    /* border: 1px solid black; */
+    background-color: hsl(244deg 51% 26%);
+    border-top: 4px solid black;
+}
+
+.top-bottom {
+    display: grid;
+    grid-template-columns: 10% 30% 10% 50%;
+}
+
+.top-bottom-one {
+    /* border: 1px solid black; */
+    background-color: black;
+
+}
+
+.top-bottom-three {
+    background-color: black;
+}
+
+.top-bottom-four {
+    display: grid;
+    /* grid-template-rows: 75% 25%; */
+    grid-template-columns: 75% 25%;
+    background-color: hsl(358deg 70% 45%);
+}
+
+.top-bottom-five {
+    background-color: white;
+    border-right: 4px solid black;
+    border-top: 2px solid black;
+    border-bottom: 6px solid black;
+}
+
+.top-bottom-six {
+    background-color: white;
+    border-left: 2px solid black;
+    border-bottom: 6px solid black;
+    border-top: 1px soldid black;
+
+}
+
+.top-bottom-seven {
+    background-color: hsl(48deg 88% 51%);
+    width: 25%;
+    border-right: 6px solid black;
+    border-top: 2px solid black;
+}
+
+.top-right {
+    display: grid;
+    grid-template-rows: 67% 33%;
+}
+
+.top-right-bottom {
+    display: grid;
+    grid-template-columns: 31% 45% 9% 15%;
+}
+
+.top-right-bottom-one {
+    background-color: hsl(244deg 51% 26%);
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+.top-right-bottom-two {
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+.top-right-bottom-three {
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+.top-right-bottom-four {
+    border-top: 4px solid black;
+    border-right: none;
+    background-color: black;
+}
+
+.top-right-top {
+    display: grid;
+    grid-template-columns: 85% 15%;
+
+}
+
+.top-right-top-right {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.top-right-top-right-one {
+    border-left: 4px solid black;
+
+}
+.top-right-top-right-two{
+    background-color: hsl(48deg 88% 51%);
+    border-left: 4px solid black;
+}
+
+.top-right-top-left{
+    display: grid;
+    grid-template-rows: 27% 26% 48%;
+}
+
+.top {
+    border-bottom: 4px solid black;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border-bottom: 4px solid black;
+}
+
+.middle-left {
+
+}
+.middle-right{
+    background-color:  hsl(244deg 51% 26%);
+    border-left: 4px solid black;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 36% 54% 10%;
+}
+
+.bottom-left {
+    background-color: hsl(48deg 88% 51%);
+    border-right: 4px solid black;
+}
+
+.bottom-middle {
+    background-color: hsl(358deg 70% 45%);
+    border-right: 4px solid black;
+}
+
+.bottom-right {
+    background-color: hsl(358deg 70% 45%);
+
+}
+.bottom-box {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.bottom-right-box {
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.bottom-right-bottom{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
